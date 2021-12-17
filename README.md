@@ -1,5 +1,5 @@
 
-# FakeDetecter
+# FakesStorage
 
 Project that aims the construction of a fake news dataset with news written in spanish.
 With this dataset we pretend to help in the development of a system capable of identifying fake news on the internet.
