@@ -1,20 +1,18 @@
 
 # FakesStorage
 
-Project that aims the construction of a fake news dataset with news written in spanish.
-With this dataset we pretend to help in the development of a system capable of identifying fake news on the internet.
+This project aims the construction of a spanish fake news dataset with news from the internet. The objetive  of this dataset is to contribute in the development of systems capable of identifying fake news online. The dataset is still work in progress.
 
 Proyecto dirigido a la contrucción de un dataset acerca de noticias falsas (Fake News) en internet que se encuentran en español. 
-Con este dataset buscamos contribuir a la construcción de un sistema para identificar noticias falsas en internet.
+Con este dataset buscamos contribuir a la construcción de sistemas para identificar noticias falsas en internet. El dataset sigue en contrucción. 
 
 
 
 
 ## General description
-This repository written in **python** can be used to download data about fake news 
-that have been published by Fact-Checkers (websites).
+This corpus was created by scraping different domains using **python**. It can be adapted to any other fact-checking websites.
 
-This version of the dataset includes the follwing files (`WebScraping` folder):
+The version of the latest dataset provided in this repository includes the following files (`WebScraping` folder):
 - `fakenewsMaldita.json` : Fake news collected by Maldita.es
 - `fakenewsNewtral.json` : Fake news collected by Newtral.es
 - `fakenewsFactCheck.json`: Fake news collected by FactCheck.org
@@ -22,9 +20,9 @@ This version of the dataset includes the follwing files (`WebScraping` folder):
 Each json contains the following data:
 | Parameter | Data type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `id` | `int` | News identifier inside the dataset  |
-| `titulo` | `string` | News title |
-| `link` | `string` | News link |
+| `id` | `int` | Unique identifier for each news include in the dataset  |
+| `titulo` | `string` | Title of the news article |
+| `link` | `string` | News link from the fact-checker |
 | `words_count` | `dictionary` | Words counter of the body text |
 
 ## Example
@@ -57,7 +55,7 @@ Each json contains the following data:
 
 
 ## Descripción general
-Este repositorio escrito en **python** se puede utilizar para descargar artículos 
+Este repositorio escrito en **python** se puede utilizar y adaptar para descargar artículos 
 de noticias falsas publicadas por páginas web que son Fact Checkers.
 
 La versión de este último dataset incluye los siguientes archivos (carpeta `WebScraping`):
@@ -70,7 +68,7 @@ Cada uno de los json anteriores tienen los siguientes datos:
 | :-------- | :------- | :------------------------- |
 | `id` | `int` | Identificador de cada noticia en el dataset  |
 | `titulo` | `string` | Título de la noticia |
-| `link` | `string` | Link a la noticia |
+| `link` | `string` | Link a la noticia por el fact-checker|
 | `words_count` | `dictionary` | Contador de las palabras que están en el artículo de la noticia |
 
 ## Ejemplo
