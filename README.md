@@ -1,7 +1,7 @@
 
 # FakeDetecter
 
-Proyecto dirigido a la contrucción de un dataset acerca de noticias falsas en internet que se encuentran en el idioma español. 
+Proyecto dirigido a la contrucción de un dataset acerca de noticias falsas en internet que se encuentran en español. 
 Con este dataset buscamos contribuir a la construcción de un sistema para identificar noticias falsas en internet.
 
 
