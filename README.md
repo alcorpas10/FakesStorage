@@ -1,7 +1,7 @@
 
 # FakesStorage
 
-This project aims the construction of a spanish fake news dataset with news from the internet. The objetive  of this dataset is to contribute in the development of systems capable of identifying fake news online. The dataset is still work in progress.
+This project aims the construction of a spanish fake news dataset with news from the internet. The objective  of this dataset is to contribute in the development of systems capable of identifying fake news online. The dataset is still work in progress.
 
 Proyecto dirigido a la contrucción de un dataset acerca de noticias falsas (Fake News) en internet que se encuentran en español. 
 Con este dataset buscamos contribuir a la construcción de sistemas para identificar noticias falsas en internet. El dataset sigue en contrucción. 
