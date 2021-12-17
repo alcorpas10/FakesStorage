@@ -61,9 +61,9 @@ Este repositorio escrito en **python** se puede utilizar para descargar artícul
 de noticias falsas publicadas por páginas web que son Fact Checkers.
 
 La versión de este último dataset incluye los siguientes archivos (carpeta `WebScraping`):
-- `fakenewsMaldita.json` : ejemplos de fake news recogidas de Maldita
-- `fakenewsNewtral.json` : ejemplos de fake news recogidas de Newtral
-- `fakenewsFactCheck.json`: ejemplos de fake news recogidas de FactCheck
+- `fakenewsMaldita.json` : ejemplos de fake news recogidas de Maldita.es
+- `fakenewsNewtral.json` : ejemplos de fake news recogidas de Newtral.es
+- `fakenewsFactCheck.json`: ejemplos de fake news recogidas de FactCheck.org
 
 Cada uno de los json anteriores tienen los siguientes datos:
 | Parámetro | Tipo de dato     | Description                |
