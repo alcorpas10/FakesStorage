@@ -9,7 +9,7 @@ Con este dataset buscamos contribuir a la construcción de un sistema para ident
 
 ## Descripción general
 Este repositorio escrito en **python** se puede utilizar para descargar artículos 
-de noticias falsas publicas por páginas web que son Fact Checkers.
+de noticias falsas publicadas por páginas web que son Fact Checkers.
 
 La versión de este último dataset incluye los siguientes archivos (carpeta `WebScraping`):
 - `fakenewsMaldita.json` : ejemplos de fake news recogidas de Maldita
