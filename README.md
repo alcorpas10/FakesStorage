@@ -25,32 +25,6 @@ Each json contains the following data:
 | `link` | `string` | News link from the fact-checker |
 | `words_count` | `dictionary` | Words counter of the body text |
 
-## Example
-
-```javascript
- "0": {
-        "titulo": "Cuidado con la inmobiliaria Rentex: la nueva inmobiliaria fantasma que trata de hacerse con tu dinero",
-        "link": "https://maldita.es/malditobulo/20211209/inmobiliaria-rentex-inmobiliaria-fantasma-hacerse-con-tu-dinero/",
-        "words_count": {
-            "inmobiliaria": 10,
-            "rentex": 7,
-            "fantasma": 2,
-            "rentames": 2,
-            "alquiler": 3,
-            "apartamentos": 1,
-            "fantasmas": 2,
-            "alquilar": 3,
-            "un": 7,
-            "piso": 9,
-            "milanuncios": 3,
-            "whatsapp": 3,
-            "email": 2,
-            "protected": 1
-            ...
-        }
-    }
-```
-
 
 
 
@@ -71,7 +45,7 @@ Cada uno de los json anteriores tienen los siguientes datos:
 | `link` | `string` | Link a la noticia por el fact-checker|
 | `words_count` | `dictionary` | Contador de las palabras que están en el artículo de la noticia |
 
-## Ejemplo
+## Example
 
 ```javascript
  "0": {
